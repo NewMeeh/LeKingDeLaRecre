@@ -7,9 +7,13 @@ namespace Com.LaDouche.LeKingDeLaRecre.Fight
     {
         [SerializeField] private Stats _stats;
         [SerializeField] private string _name;
+        
+
         [SerializeField] protected List<Attack> _attacks;
         public Stats Stats => _stats;
 
+        public string Name => _name;
+        
         public bool IsGud => _stats.Hp > 0;
 
         public void OnTatkZebi(Attack attack)

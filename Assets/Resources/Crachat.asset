@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bb194eb987a44e1b6019b02b298a1bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 773eac4da2be3e44d9756cd94808065b, type: 3}
   m_Name: Crachat
   m_EditorClassIdentifier: 
-  _name: Mollard
-  _damage: 6
+  _name: Crachat
+  _damage: 15
   _fear: 1
-  _stinky: 1
+  _stinky: 0
   _slow: 0
